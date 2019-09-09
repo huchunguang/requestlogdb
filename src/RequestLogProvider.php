@@ -1,5 +1,5 @@
 <?php
-namespace Qnn\RequstLog;
+namespace Qnn\RequestLog;
 
 use Illuminate\Support\ServiceProvider;
 

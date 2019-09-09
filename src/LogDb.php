@@ -1,6 +1,6 @@
 <?php
 
-namespace Qnn\RequstLog;
+namespace Qnn\RequestLog;
 
 use Illuminate\Config\Repository;
 use Illuminate\Support\Facades\Request;

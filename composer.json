@@ -17,10 +17,10 @@
     "extra": {
     "laravel": {
         "providers": [
-            "Qnn\\RequstLog\\RequestLogProvider"
+            "Qnn\\RequestLog\\RequestLogProvider"
         ],
         "aliases": {
-            "RequestLog": "Qnn\\RequstLog\\Facades\\RequestLog"
+            "RequestLog": "Qnn\\RequestLog\\Facades\\RequestLog"
         }
     }
 }

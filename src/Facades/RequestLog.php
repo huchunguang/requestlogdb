@@ -1,5 +1,5 @@
 <?php
-namespace Qnn\RequstLog\Facades;
+namespace Qnn\RequestLog\Facades;
 use Illuminate\Support\Facades\Facade;
 class RequestLog extends Facade
 {

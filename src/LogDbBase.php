@@ -1,5 +1,5 @@
 <?php
-namespace Qnn\RequstLog;
+namespace Qnn\RequestLog;
 
 /**
  *  LogDB抽象封装类
