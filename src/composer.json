@@ -1,0 +1,27 @@
+{
+	"name" : "huchunguang/requestlogdb",
+	"description" : "log all the information of request",
+	"type" : "library",
+	"license" : "MIT",
+	"authors" : [{
+			"name" : "huchunguang",
+			"email" : "huchunguang123@gmail.com"
+		}
+	],
+	"autoload" : {
+		"psr-4" : {
+			"Qnn\\RequestLog\\" : "src/"
+		}
+	},
+	"minimum-stability" : "dev",
+    "extra": {
+    "laravel": {
+        "providers": [
+            "Qnn\\RequstLog\\RequestLogProvider"
+        ],
+        "aliases": {
+            "RequestLog": "Qnn\\RequstLog\\Facades\\RequestLog"
+        }
+    }
+}
+}
