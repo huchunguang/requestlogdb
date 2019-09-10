@@ -17,7 +17,7 @@ use Illuminate\Support\Facades\Log;
 class LogDb extends LogDbBase
 {
 
-    public function __construct(Repository $config,$level = Logger::DEBUG, $bubble = true)
+    public function __construct(Repository $config)
     {
         $this->config = $config;
     }

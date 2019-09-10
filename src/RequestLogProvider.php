@@ -26,7 +26,7 @@ class RequestLogProvider extends ServiceProvider
 	public function register()
 	{
 		$this->app->singleton('RequestLog', function ($app) {
-			return new LogDb();
+		    return new LogDb($app['config']);
 		});
 	}
 	
