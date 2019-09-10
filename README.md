@@ -1,4 +1,4 @@
-# log request info into server db for QNN
+# Logging request info into DBserver for QNN project
 
 ## How To Use
 1. First, Pls.ensuring you have already installed the Laravel framework,then following the below the commnad <br/>
